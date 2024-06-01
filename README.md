@@ -70,7 +70,58 @@ http://127.0.0.1:8000/api/predict/
 
 The request should include the following form data:
 
-
+* `MSSubClass`: The building class.
+* `MSZoning`: The general zoning classification.
+* `LotArea`: The size of the lot in square feet.
+* `Street`: The type of street access to the property.
+* `LotShape`: The shape of the lot.
+* `LandContour`: The flatness of the land.
+* `Utilities`: The type of utilities available.
+* `LotConfig`: The configuration of the lot.
+* `LandSlope`: The slope of the land.
+* `Neighborhood`: The physical locations of the property.
+* `Condition1`: Proximity to various conditions.
+* `Condition2`: Proximity to various conditions (if more than one is present).
+* `BldgType`: The type of building.
+* `HouseStyle`: The style of the house.
+* `OverallQual`: The overall quality of the house.
+* `OverallCond`: The overall condition of the house.
+* `YearBuilt`: The year the house was built.
+* `YearRemodAdd`: The year the house was remodeled.
+* `RoofStyle`: The style of the roof.
+* `RoofMatl`: The material of the roof.
+* `Exterior1st`: The exterior covering on the house.
+* `Exterior2nd`: The exterior covering on the house (if more than one material is present).
+* `ExterQual`: The quality of the exterior covering.
+* `ExterCond`: The present condition of the exterior covering.
+* `Foundation`: The type of foundation.
+* `Heating`: The type of heating system.
+* `HeatingQC`: The quality of the heating system.
+* `CentralAir`: The presence of central air conditioning.
+* `1stFlrSF`: The size of the first floor in square feet.
+* `2ndFlrSF`: The size of the second floor in square feet.
+* `LowQualFinSF`: The size of the low quality finished area in square feet.
+* `GrLivArea`: The size of the above grade (ground) living area in square feet.
+* `FullBath`: The number of full bathrooms.
+* `HalfBath`: The number of half bathrooms.
+* `BedroomAbvGr`: The number of bedrooms above grade (does not include basement bedrooms).
+* `KitchenAbvGr`: The number of kitchens above grade.
+* `KitchenQual`: The quality of the kitchen.
+* `TotRmsAbvGrd`: The total number of rooms above grade (does not include bathrooms).
+* `Functional`: The home functionality rating.
+* `Fireplaces`: The number of fireplaces.
+* `PavedDrive`: The type of driveway.
+* `WoodDeckSF`: The size of the wood deck in square feet.
+* `OpenPorchSF`: The size of the open porch in square feet.
+* `EnclosedPorch`: The size of the enclosed porch in square feet.
+* `3SsnPorch`: The size of the three season porch in square feet.
+* `ScreenPorch`: The size of the screen porch in square feet.
+* `PoolArea`: The size of the pool area in square feet.
+* `MiscVal`: The value of miscellaneous features.
+* `MoSold`: The month the house was sold.
+* `YrSold`: The year the house was sold.
+* `SaleType`: The type of sale.
+* `SaleCondition`: The condition of the sale.
 
 Example for the body request:
 
